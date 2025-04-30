@@ -1,0 +1,121 @@
+.switch-course{
+    background-color:transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.add-course-dashboard{
+    background-color:transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: x-large;
+    
+}
+
+.add-course-header{
+  font-size: 2rem;
+  color: black;
+  
+}
+
+.center-add-course {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Oswald", serif;
+  }
+  
+  .add-course-input {
+    text-align: center;
+    padding: 5px; 
+    border-color: rgb(255, 255, 255);
+    border: 1px solid #caced1;
+    border-radius: 0.50rem;
+    height: 20px;
+  }
+  
+  input.name {
+    width: 40%; 
+    margin: 5px;
+  }
+  
+  input.rating {
+    width: 10%; 
+    margin: 5px;
+}
+
+input.location {
+  width:50%;
+  margin: 5px;
+  
+}
+  
+
+
+  
+  .holes {
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    margin-top: 20px;
+    width: 100%;
+    overflow-y: visible;
+    flex-wrap:wrap;
+  }
+
+  .hole {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px;
+    border-radius: 24px;
+    box-shadow: 0 2px 5px #343A40; 
+    max-width: 90%; 
+    flex-wrap: wrap;
+    background-color:#343A40;
+    color:white;
+  }
+
+  .error{
+    background-color: transparent;
+    color: red;
+    font-size: large;
+    margin-top: 20px;
+  }
+
+  .saved-message{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    font-size: large;
+  }
+
+  .save-button{
+    background-color:#212529;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .save-button:hover{
+    background-color: #DEE2E6;
+    transition: background-color ease-in-out 0.3s;
+  }
+
+  .add-course-form{
+    width:75%
+  }

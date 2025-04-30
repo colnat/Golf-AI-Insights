@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Oswald", serif;
+  
+}
+
+
+.login-register-input{
+    padding: 10px; 
+    border-color: rgb(255, 255, 255);
+    border: 1px solid #caced1;
+    border-radius: 0.50rem;
+    height: 15px;
+    width: 100%;
+    margin: 10px;
+   
+}
+
+.login-register-form{
+  width: 25%;
+ 
+}
+
+.button{
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  padding: 5px 10px !important;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+label.login-register {
+  display: block; 
+  text-align: center; 
+  margin-bottom: 5px; 
+}
+
+.button:hover{
+  background-color: #caced1;
+  transition: background-color ease-in-out 0.3s;
+}
+
+.error{
+  background-color: transparent;
+  color: red;
+}
+
+
+
+
+

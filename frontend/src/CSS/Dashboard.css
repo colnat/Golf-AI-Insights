@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.dashboard-home{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", serif;
+}
+
+
+.button-container{
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.dashboard-buttons{
+    margin: 5px 5px;
+    background-color: white;
+    color: black;
+    font-family: "Oswald", serif;
+}
+
+.dashboard-buttons:hover{
+  background-color: #caced1;
+  transition: background-color ease-in-out 0.3s;
+}
+
+
+.center-user-stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oswald", serif;
+    flex-direction: column;
+   }
+
+   table.course-table {
+    width: 75%;
+    margin-bottom: 5px;
+    margin-top:15px;
+  }
+
+  table.hole-table{
+    width:100%
+  }
+
+  p.no-data{
+    font-size:x-large;
+    text-align: center;
+  }
+
+  p.insights{
+    font-size: x-large;
+    width: 50%;
+    text-align: center;
+  }
+
+
+  .handicap{
+   font-size: 2em;
+  }
+
+  .handicap h3 {
+    margin: 0; 
+    padding: 0;
+}
+
+  .handicap-box{
+    text-align: left;
+    margin-left: 15px;
+    display: block;
+   
+    
+  }
+
+  .handicap-label{
+    display: block; 
+    margin-top: 1px;
+    font-family: "Oswald", serif;
+    font-size: 1em;
+}
+
+.center-loader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Oswald", serif;
+  
+}
+
+
+
+
